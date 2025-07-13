@@ -18,8 +18,8 @@ jobs:
         with: 
           go-version: "1.24.4"
 
-      - name: Check Go version
-        run: go version
+      - name: Unit Tests
+        run: go test ./...
 
 
       
